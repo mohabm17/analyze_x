@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyze X</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Analyze X</h1>
+    </header>
+    <main>
+        <section id="sales-trend">
+            <h2>Sales Trend Over Time</h2>
+            <div id="trend-chart"></div>
+        </section>
+        <section id="charts">
+            <h2>Other Charts</h2>
+            <div id="client-type-chart"></div>
+            <div id="product-sales-chart"></div>
+            <div id="region-sales-chart"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Analyze X</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
